@@ -4,20 +4,9 @@ Uma simples interface para visualização de arquivos .segy e .sgy feito pela Li
 
 ## Description
 
-Para rodar é necessário ter instalado o easygui, o tkinter, o matplotlib e o segyio instalado, que por sua vez tem como requisitos:
+Para rodar o projeto, execute o arquivo makefile através do comando **make**, que instala as dependências e roda o main.py.
 
-A C99 compatible C compiler (tested mostly on gcc and clang)
-A C++ compiler for the Python extension, and C++11 for the tests
-CMake version 2.8.12 or greater
-Python 3.6 or greater
-numpy version 1.10 or greater
-setuptools version 28 or greater
-setuptools-scm
-pytest
-(Ver mais em: https://github.com/equinor/segyio)
-
-Todos podem ser instalados por meio do comando pip install.
-
-Após fazer as devidas instalações para rodar o projeto digite python3 main.py e a interface deve abrir.
+Caso dê algum erro durante o uso do makefile ou da instalação de algum pacote, você pode instalar manualmente e rodar o projeto pelo comando:
+**python main.py**
 
 OBS.: Se seu computador tiver um processador arm será necessário instalar os requisitos em um terminal simulando a arquitetura x86, visto que o segyio ainda não está preparado para tal arquitetura.
