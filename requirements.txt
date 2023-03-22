@@ -1,0 +1,9 @@
+matplotlib
+mayavi
+numpy
+segyio
+wheel
+pygame
+wxPython
+PySide2
+h5py
