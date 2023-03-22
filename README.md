@@ -1,1 +1,1 @@
-# leitura-de-imagens-segy
+# seismic-visualizer
